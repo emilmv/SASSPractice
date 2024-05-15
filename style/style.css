@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Metropolis', sans-serif;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url(../fonts/metropolis.regular.otf);
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: larger;
+    display: flex;
+}
+.links{
+    font-size: smaller;
+}
+.links ul{
+    display: flex;
+    font-size: medium;
+}
+ul{
+    list-style-type: style none;
+}
+li{
+    list-style: none;
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+.dropDown-shop{
+    display: none;
+}
+i{
+    vertical-align: middle;
+}
+.cart{
+    margin-left: 20px;
+}
+.background{
+    height: 292px;
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 0;
+    margin: 10px;
+}
+p{
+    color: grey;
+}
+.cards{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid grey;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    gap: 20px;
+    position: flex;
+}
+.body-header{
+    margin-top: 20px;
+}
+.body-footer,.body-header{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.card-img{
+    height: 50%;
+    background-color: grey;
+}
